@@ -12,14 +12,14 @@ export default function Navbar() {
   };
   const onProject = () => {
     window.scrollTo({
-      top: 1200,
+      top: 1300,
       left: 1000,
       behavior: "smooth",
     });
   };
   const onConnect = () => {
     window.scrollTo({
-      top: 1800,
+      top: 2300,
       left: 1000,
       behavior: "smooth",
     });
