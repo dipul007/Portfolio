@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HeaderDiv } from "./style";
-import Headpic from "./../assets/images/dp.jpg";
+import Headpic from "./../assets/images/maindp.jpg";
 import Animated from "./../assets/images/animated.jpg";
 
 export default function Header() {
