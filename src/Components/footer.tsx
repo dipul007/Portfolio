@@ -1,6 +1,6 @@
 import React from "react";
 import { FooterDiv } from "./style";
-import LinkedIn from "./../assets/images/linkedin.webp";
+import LinkedIn from "./../assets/images/linkedIn.png";
 import Github from "./../assets/images/github.png";
 
 export default function Footer() {

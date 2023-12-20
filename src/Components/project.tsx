@@ -20,7 +20,7 @@ export default function Project() {
               <li>Optimize application for maximum speed and scalability.</li>
               <li>Translating design in Figma to reusable components.</li>
               <li>Collaborate with other team members and stakeholders.</li></ul>
-            <div>From 07/2023 To 09/2023</div>
+            <div>From 07/2023 To Present</div>
           </div>
           <div className="info">
             {" "}
