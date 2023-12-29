@@ -7,7 +7,7 @@ export default function Footer() {
   function handleDownloadClick() {
     const link = document.createElement("a");
     link.download = "Dipul's Resume.pdf";
-    link.href = "/Resume.pdf";
+    link.href = "/DipulGuptaResume.pdf";
     link.click();
   }
   return (
