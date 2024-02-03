@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { A, Links, Logo, Nav } from "./style";
 import LogoD from "./../assets/images/logo.png";
 
@@ -24,8 +24,9 @@ export default function Navbar() {
       behavior: "smooth",
     });
   };
+
   return (
-    <Nav>
+    <Nav >
       <Logo>
         <img src={LogoD} alt="logo.png" height="40px" />
       </Logo>

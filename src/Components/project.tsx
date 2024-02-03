@@ -3,6 +3,7 @@ import { ContentProject, ProjectDiv } from "./style";
 import Slabs from "./../assets/images/slabs.svg";
 import Pulse from "./../assets/images/pulsechain.jpg";
 import Rex from "./../assets/images/rexnetlogo.png";
+import Recycle from "./../assets/images/recycle.jpg";
 
 export default function Project() {
   return (
@@ -82,6 +83,9 @@ export default function Project() {
           </ContentProject>
           <ContentProject href="https://www.rexnet.io/" target="_blank">
             Rexnet <img src={Rex} />
+          </ContentProject>
+          <ContentProject href="https://wastewyze.com/" target="_blank" className="left">
+            WasteWyze <img src={Recycle} />
           </ContentProject>
         </div>
       </ProjectDiv>
