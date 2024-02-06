@@ -7,7 +7,6 @@ export default function Connect() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const validation = name == "" || email == "" || message == "";
   const onSubmit = async (e: any) => {
     e.preventDefault();
     const url = "http://localhost:3000/addtodoCard";
