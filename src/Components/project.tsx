@@ -15,13 +15,36 @@ export default function Project() {
           <div className="info">
             <div>Vayuz Technologies</div>
             <div>Product Engineer (Reactjs)</div>
-            <ul><li>Develop new user-facing features.</li>
+            <ul>
+              <li>Develop new user-facing features.</li>
               <li>Build reusable code and libraries for future use.</li>
               <li>Ensure the technical feasibility of UI/UX designs.</li>
               <li>Optimize application for maximum speed and scalability.</li>
               <li>Translating design in Figma to reusable components.</li>
-              <li>Collaborate with other team members and stakeholders.</li></ul>
+              <li>Collaborate with other team members and stakeholders.</li>
+            </ul>
             <div>From 07/2023 To Present</div>
+          </div>
+          <div className="info">
+            <div>Neerja Associates Pvt. Ltd.</div>
+            <div>Frontend Developer</div>
+            <ul>
+              <li>
+                Developed responsive and mobile-friendly web applications,
+                ensuring seamless user experience across various devices and
+                screen sizes.
+              </li>
+              <li>
+                Implemented user interface designs using UI/UX best practices,
+                focusing on usability, accessibility, and visual appeal.
+              </li>
+              <li>
+                Demonstrated problem-solving skills by resolving complex
+                technical issues and implementing innovative solutions to meet
+                project requirements.
+              </li>
+            </ul>
+            <div>From 03/2023 To 07/2023</div>
           </div>
           <div className="info">
             {" "}
@@ -84,7 +107,11 @@ export default function Project() {
           <ContentProject href="https://www.rexnet.io/" target="_blank">
             Rexnet <img src={Rex} />
           </ContentProject>
-          <ContentProject href="https://wastewyze.com/" target="_blank" className="left">
+          <ContentProject
+            href="https://wastewyze.com/"
+            target="_blank"
+            className="left"
+          >
             WasteWyze <img src={Recycle} />
           </ContentProject>
         </div>
