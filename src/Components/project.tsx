@@ -26,27 +26,6 @@ export default function Project() {
             <div>From 07/2023 To Present</div>
           </div>
           <div className="info">
-            <div>Neerja Associates Pvt. Ltd.</div>
-            <div>Frontend Developer</div>
-            <ul>
-              <li>
-                Developed responsive and mobile-friendly web applications,
-                ensuring seamless user experience across various devices and
-                screen sizes.
-              </li>
-              <li>
-                Implemented user interface designs using UI/UX best practices,
-                focusing on usability, accessibility, and visual appeal.
-              </li>
-              <li>
-                Demonstrated problem-solving skills by resolving complex
-                technical issues and implementing innovative solutions to meet
-                project requirements.
-              </li>
-            </ul>
-            <div>From 03/2023 To 07/2023</div>
-          </div>
-          <div className="info">
             {" "}
             <div>Rapid Innovation</div>
             <div>Software Developer</div>
@@ -69,7 +48,7 @@ export default function Project() {
                 code, and cross-browser compatibility.
               </li>
             </ul>
-            <div>From 07/2021 To 04/2023</div>
+            <div>From 07/2021 To 03/2023</div>
           </div>
           <div className="info">
             {" "}
