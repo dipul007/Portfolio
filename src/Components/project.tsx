@@ -4,6 +4,7 @@ import Slabs from "./../assets/images/slabs.svg";
 import Pulse from "./../assets/images/pulsechain.jpg";
 import Rex from "./../assets/images/rexnetlogo.png";
 import Recycle from "./../assets/images/recycle.jpg";
+import Vrynt from "./../assets/images/vrynt.png";
 
 export default function Project() {
   return (
@@ -13,17 +14,59 @@ export default function Project() {
           {" "}
           <div className="heading">Work Experience</div>
           <div className="info">
+            <div>Freelancing</div>
+            <div>Frontend Developer</div>
+            <ul>
+              <li>
+                Designing and implementing user-friendly interfaces based on
+                UX/UI principles and best practices.
+              </li>
+              <li>
+                {" "}
+                Proficiency in writing clean, semantic HTML and CSS to translate
+                design mockups into pixel-perfect web pages.
+              </li>
+              <li>
+                {" "}
+                Strong command of JavaScript and its modern ES6+ features for
+                building interactive frontend functionalities and managing
+                application state.
+              </li>
+            </ul>
+            <div>From 10/2023 To Present</div>
+          </div>
+          <div className="info">
             <div>Vayuz Technologies</div>
             <div>Product Engineer (Reactjs)</div>
             <ul>
-              <li>Develop new user-facing features.</li>
-              <li>Build reusable code and libraries for future use.</li>
-              <li>Ensure the technical feasibility of UI/UX designs.</li>
-              <li>Optimize application for maximum speed and scalability.</li>
-              <li>Translating design in Figma to reusable components.</li>
-              <li>Collaborate with other team members and stakeholders.</li>
+              <li>
+                Develop robust and user-friendly web applications using ReactJS,
+                TypeScript adhering to best practices and coding standards.
+                Utilize React hooks, context API, and Redux for state management
+                and component communication.
+              </li>
+              <li>
+                Utilize React hooks, context API, and Redux for state management
+                and component communication.
+              </li>
+              <li>
+                Implement responsive and visually appealing UIs with HTML5,
+                CSS3, and modern CSS modules such as Flexbox and Grid.
+              </li>
+              <li>
+                Optimize application performance and bundle size using Webpack
+                5.
+              </li>
+              <li>
+                Apply advanced ES6 concepts and ensure code maintainability and
+                scalability..
+              </li>
+              <li>
+                CUtilize Git for version control, ensuring codebase integrity
+                and collaborative development.
+              </li>
             </ul>
-            <div>From 07/2023 To Present</div>
+            <div>From 07/2023 To 09/2023</div>
           </div>
           <div className="info">
             {" "}
@@ -34,18 +77,22 @@ export default function Project() {
                 Promoted as a Junior tech lead in the Frontend Department.{" "}
               </li>
               <li>
-                Designed dynamic and browser compatible pages using Reactjs,
-                HTML5, CSS3, and Typescript.
+                Utilize GraphQL client for efficient data fetching and
+                management within the frontend applications.
               </li>{" "}
-              <li> Works on Block chain Technology using Ethereum.</li>{" "}
               <li>
-                Expand features, refine code, and improve processes, producing
-                smoother operations and enhancing user engagement.
+                Design, implement, and maintain Continuous Integration and
+                Continuous Deployment (CI/CD) pipelines for efficient software
+                delivery.
+              </li>{" "}
+              <li>
+                Skilled NextJS developer proficient in React, SSR, SSG, and API
+                integration.
               </li>
               <li>
                 {" "}
-                Deliver engaging user experience through optimization of images,
-                code, and cross-browser compatibility.
+                Conducted code reviews to ensure code quality, performance, and
+                adherence to best practices.
               </li>
             </ul>
             <div>From 07/2021 To 03/2023</div>
@@ -92,6 +139,9 @@ export default function Project() {
             className="left"
           >
             WasteWyze <img src={Recycle} />
+          </ContentProject>
+          <ContentProject href="https://app.vrynt.io/" target="_blank">
+            Vrynt <img src={Vrynt} width="150px" style={{ height: "80px" }} />
           </ContentProject>
         </div>
       </ProjectDiv>

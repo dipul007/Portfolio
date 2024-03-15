@@ -57,7 +57,7 @@ export default function About() {
           Redux <img src={Redux} />
         </Skills>
         <Skills>
-          AWS <img src={Aws} />
+          AWS Amplify<img src={Aws} />
         </Skills>
       </div>
       <div className="heading">Tools</div>

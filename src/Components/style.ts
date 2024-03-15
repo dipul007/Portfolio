@@ -85,7 +85,7 @@ export const HeaderDiv = styled.div`
   background: url(${Bg});
   background-size: cover;
   font-family: monospace;
-
+  border-radius: 5px;
   img {
     height: 305px;
     cursor: url(${Pointer}), auto;
@@ -118,7 +118,7 @@ export const HeaderDiv = styled.div`
     font-size: 35px;
     font-weight: 900;
     cursor: url(${Cursor}), auto;
-
+    color: white;
     cursor: url(${Pointer}), auto;
     &:hover {
       -webkit-animation: bounce 0.4s ease infinite alternate;
