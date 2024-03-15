@@ -19,7 +19,7 @@ export default function Navbar() {
   };
   const onConnect = () => {
     window.scrollTo({
-      top: 2300,
+      top: 4300,
       left: 1000,
       behavior: "smooth",
     });
