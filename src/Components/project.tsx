@@ -14,28 +14,6 @@ export default function Project() {
           {" "}
           <div className="heading">Work Experience</div>
           <div className="info">
-            <div>Freelancing</div>
-            <div>Frontend Developer</div>
-            <ul>
-              <li>
-                Designing and implementing user-friendly interfaces based on
-                UX/UI principles and best practices.
-              </li>
-              <li>
-                {" "}
-                Proficiency in writing clean, semantic HTML and CSS to translate
-                design mockups into pixel-perfect web pages.
-              </li>
-              <li>
-                {" "}
-                Strong command of JavaScript and its modern ES6+ features for
-                building interactive frontend functionalities and managing
-                application state.
-              </li>
-            </ul>
-            <div>From 10/2023 To Present</div>
-          </div>
-          <div className="info">
             <div>Vayuz Technologies</div>
             <div>Product Engineer (Reactjs)</div>
             <ul>
@@ -66,7 +44,7 @@ export default function Project() {
                 and collaborative development.
               </li>
             </ul>
-            <div>From 07/2023 To 09/2023</div>
+            <div>From 07/2023 To Present</div>
           </div>
           <div className="info">
             {" "}
