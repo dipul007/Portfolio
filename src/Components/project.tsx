@@ -20,8 +20,6 @@ export default function Project() {
               <li>
                 Develop robust and user-friendly web applications using ReactJS,
                 TypeScript adhering to best practices and coding standards.
-                Utilize React hooks, context API, and Redux for state management
-                and component communication.
               </li>
               <li>
                 Utilize React hooks, context API, and Redux for state management
